@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!--I NEED HELP GIVING MY DATA FROM MY FORM A DESTINATION FOR ME TO VIEW-->
+
+<!-- first time playing around on here, trying to use it to make a page for my business to generate leads. any tips or advise greatly appreciated in the comments. im still learning basics as you can probably tell-->
+<html>
+    <head>
+    <title>"Spruce It Up Auto Detailing</title>
+    </head>
+    <body> 
+    <header style="text-align:center">
+<marquee faster>
+        <a  href="https://lh3.googleusercontent.com/drive-viewer/AK7aPaB09_3s1Sgj3QUqr6cCxhMRdNiV8ziCayG3jGlcJDG9Oso0eXQs3kx1oJA8yyoBq2L35gYz1roxbuTQjQHO-mAilZoByA=s1600?source=screenshot.guru"> <img width="350" src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaB09_3s1Sgj3QUqr6cCxhMRdNiV8ziCayG3jGlcJDG9Oso0eXQs3kx1oJA8yyoBq2L35gYz1roxbuTQjQHO-mAilZoByA=s1600" /> 
+        </a>
+</marquee>
+    </header>
+
+    <select name="clr" onchange="document.bgColor=this.options[this.selectedIndex].value" size="1" id="bg">
+    <br>
+    <option value="white">white
+        <option value="orange">orange
+            <option value="flamingred">pink
+                <option value="teal">teal
+                    <option value="green">green
+                        <option value="cyan">baby blue
+                            <option value="yellow">yellow
+                                <option value="red">red
+                                    <option value="navyblue">violet</option>
+</select>&nbsp;&nbsp;Background Color
+
+<br>
+<select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1" id="txt">
+    <br>
+    <option value="black">black
+        <option value="orange">orange
+            <option value="flamingred">pink
+                <option value="teal">teal
+                    <option value="cyan">cyan
+                        <option value="yellow">yellow
+                            <option value="red">red
+                                <option value="white">white</option>
+</select>&nbsp;&nbsp;Text Color
+ 
+
+    <button id="fb"><a target="_blank" href="https://www.facebook.com/profile.php?id=100093838328007&mibextid=ZbWKwL">Click here for our Facebook page</button></a>
+
+    <main>
+        <h2>Full Interior Cleaning</h2>
+        <p>This icludes cleaning and disinfecting every surface! Vacuuming every crack and crevice! Cleaning all carpets, seats, glass, vinyl and plastics. Includes freshening up all air vents and a complimentary air freshner.</p>
+            
+        <iframe width="260" height="215" src="https://www.youtube.com/embed/jOrcnkXJl5w?si=1LF7RIWZTYReQuvj" title="YouTube Player Created By Video Embed Code Generator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        <h3>Want a quote? Fill out these quick questions and recieve an email in no time!</h3>
+            
+            <div style="border:2px solid green">
+                <form action="https://formsubmit.co/85322a9fad737fe46438a759670bcdb0"
+                method="post">
+                    <label for= "contact"></label><strong>Contact preferrence</strong></label>
+                    <select id="contact" name= "contact by">
+                        <option>Select this if theres no prefference</option>
+                        <option>Phone call</option>
+                        <option>Text message</option>
+                        <option>Email</option>
+                    </select>
+            <br>
+                    <label><strong>Email</strong></label>
+                    <input type= "email" id="email" name="email address">
+            <br>
+                    <label><strong>Phone</strong></label>
+                    <input type= "tel" id="phone" name="phone number">
+            <br>
+                    <label><strong>Year</strong></label>
+                    <input type= "tel" id="year" name="year">
+            <br>
+                    <label><strong>Make</strong></label>
+                    <input type= "text" id="make" name="make">
+            <br>
+                    <label><strong>Model</strong></label>
+                    <input type= "text" id="model" name="model">
+            <br>
+                <p><strong>Time of day</strong></p>
+                    <input type= "checkbox" id="morning" name="morning" value="morning">
+                    <label for= "morning">Morning</label><br>
+                    <input type= "checkbox" id="midday" name="midday" value="mid-day">
+                    <label for= "midday">Mid-day</label><br>
+                    <input type= "checkbox" id="afternoons" name="afternoon" value="afternoons">
+                    <label for= "afternoons">Afternoons</label><br>
+                    <input type= "checkbox" id="evenings" name="evening" value="evenings">
+                    <label for= "evenings">Evenings</label><br>
+                <p><strong>Day of the week</strong></p>
+                    <input type= "checkbox" id="mon" name="monday" value="monday">
+                    <label for= "mon">Monday</label><br>
+                    <input type= "checkbox" id="tue" name="tuesday" value="tuesday">
+                    <label for= "tue">Tuesday</label><br>
+                    <input type= "checkbox" id="wed" name="wednesday" value="wednesday">
+                    <label for= "wed">Wednesday</label><br>
+                    <input type= "checkbox" id="thu" name="thursday" value="thursday">
+                    <label for= "thu">Thursday</label><br>
+                    <input type= "checkbox" id="fri" name="friday" value="Friday">
+                    <label for= "fri">Friday</label><br>
+                    <input type= "checkbox" id="sat" name="saturday" value="saturday">
+                    <label for= "sat">Saturday</label><br>
+                    <input type= "checkbox" id="sun" name="sunday" value="sunday">
+                    <label for= "sun">Sunday</label><br><br>
+                <div style="text-align:center">
+                    <input type= "submit" id=submit onclick="alert ('Thank you for filling out the form :) We will reach out as soon as possible!')">
+        <br>
+                </div>
+                </form>
+                </div>
+        </main><br>
+    <div style="text-align:right">
+        <footer>
+            <a href="#top">Top of page</a>
+        <br><br>
+            <a target="_blank" href="https://www.facebook.com/people/Sprucing-It-Up-Auto-Detailing/100093838328007/?sk=reviews">Reviews</a>
+        <br>    
+            <a onclick="alert('Please contact us via Facebook otherwise you can email us at siuad@gmail.com or Call us at 555-555-5555')" href="#contact">Contact us</a>
+        <br>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100093838328007&mibextid=ZbWKwL">Facebook</a>
+        </footer>
+      </div>
+    </body>
+</html>
